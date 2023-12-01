@@ -1,1 +1,26 @@
+USB Forensic Analysis: Examine USB storage devices for evidence of unauthorised data transfers.
+
+Case information: 
+●	Date: 25-11-2023
+●	Investigator name:  Shashank Chatla, A Joseph Paul
+
+
+Executive Summary:
+Analyzing Windows registry entries pertaining to USB devices for digital investigations is the process of USB forensics utilizing the registry editor. Investigators can learn details about connected USB devices, timestamps, and user behaviors by carefully examining the registry hive. This technique helps create a timeline of USB activity, detect any security breaches, and recreate device history. Registry keys like MountedDevices and USBSTOR can be analyzed to provide forensic professionals a complete picture of all attached devices. This can help them find important evidence and improve their ability to link certain activities to particular people. This strategy works well for handling cybersecurity events and advancing the investigation as a whole.
+
+Introduction:
+USB forensics, via the registry editor, uncovers digital footprints of USB devices on a system. Analyzing the Windows registry reveals key details like device connections, timestamps, and user interactions. This method provides a comprehensive system history, aiding forensic investigators in understanding user behaviors, potential security breaches, and enhancing their toolkit for detailed examinations.
+
+Methodologies:
+Using the Registry Editor, USB forensics entails searching the Windows registry for entries pertaining to USB. The "Enum\USBSTOR" key for attached storage devices, the "MountedDevices" key for volume data, and the "SYSTEM\CurrentControlSet\Enum\USB" key for device details are some of the methodologies used. USB storage drivers can also be found by looking through "SYSTEM\CurrentControlSet\Services\USBSTOR". In forensic investigations, this method helps recreate USB activity and identify connected devices.
+
+Findings:
+The registry editor's USB forensics revealed a comprehensive log of all connected devices, including with timestamps and driver details. This fine-grained information makes it easier to reconstruct the historical sequence of USB connections in detail, which helps investigators spot trends, recognize abnormalities, and evaluate possible security lapses or unauthorized access.
+
+
+Discussion:
+A thorough log of all connected devices, including with timestamps and driver information, was discovered by the registry editor's USB forensics. Investigators can identify patterns, identify anomalies, and assess potential security breaches or illegal access with more ease thanks to this fine-grained data, which facilitates the detailed reconstruction of the historical sequence of USB connections. Our comprehension of system activity linked to USB devices has been enhanced by the findings, which also provide a helpful digital evidence trail for forensic examination.
+
+Conclusion:
+Finally, USB forensics using the Registry Editor offer insightful information about user behavior and device interactions. Registry entry analysis helps forensic investigators reconstruct digital events by enabling a thorough review of connected USB devices, timestamps, and user interactions. By facilitating the detection of possible security breaches or illegal activity, this technique improves the forensic toolbox and eventually advances our understanding of digital landscapes.
 
